@@ -12,7 +12,7 @@ class SquareObject {
    }
    init (x, y, size){
     this.vector = createVector(x, y)
-    this.velocity = createVector(1, 0)
+    this.velocity = createVector(0, 0)
     this.momentum = this.velocity.mult(this.size)
     this.size = size
    }
